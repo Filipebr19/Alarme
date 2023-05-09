@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #d1d1d1;
+}
+
+body{
+    background-color: rgb(29, 29, 29);
+}
+
+#alarme{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#horario{
+    text-align: center; 
+    margin-top: 6rem;
+}
+#horario .hora {
+    font-size: 50px;
+}
+
+#addHora {
+    margin-top: 4rem;
+    border: solid 1px #d1d1d1;
+    border-radius: 5px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 13px 30px;
+}
+#addHora .buttonAdd,
+#addHora .inserirAlarme .escolhaAHora .buttonConfirmar{
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#addHora .buttonAdd:hover,
+#addHora .inserirAlarme .escolhaAHora .buttonConfirmar:hover {
+    color: rgb(124, 124, 255);
+}
+
+#addHora .inserirAlarme{
+    text-align: center;
+    display: none;
+    transition: all 0.3s ease;
+}
+#addHora .inserirAlarme .escolhaAHora{
+    margin-top: 10px;
+}
+#addHora .inserirAlarme .escolhaAHora input {
+    padding: 4px 12px;
+    color: #505050;
+}
+#addHora .inserirAlarme .escolhaAHora .buttonConfirmar{
+    margin-top: 10px;
+    font-size: 18px;
+}
