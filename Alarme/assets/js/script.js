@@ -71,7 +71,7 @@ function alarme() {
     horaDoAlarme.innerHTML = input;
     horaDoAlarme.style.marginRight = '50px';
 
-    button.innerHTML = "Desativar alarmer";
+    button.innerHTML = "Desativar alarme";
     button.style.color = '#000';
     button.style.cursor = 'pointer';
     button.style.padding = '5px 10px'
